@@ -1,0 +1,71 @@
+{ "DTTIME" : "Report Data as of: 08/28/2012 05:29 PM  ",
+  "ERRMSG" : "",
+  "INSTANCEID" : "219231",
+  "PARAMSFORREQ" : "%26pName_0%3DAudit_ID%26pValue_0%3D100569%26filtId_0%3D0",
+  "PARAMSFORREQDISP" : "",
+  "QUERY" : {
+  	"COLUMNS":
+  				["col12",
+          "col1",
+          "col2",
+          "col4",
+          "col5",
+          "col6",
+          "col7",
+          "col8",
+          "col9",
+          "col13"
+        ],
+      "DATA": [
+      		[
+      			"Audit To Recheck-Control",
+            "<a target=\"_self\" href=\"javascript:callreportdetails('Pushinfolet?id=101189&proc=9525&flag=1&emd=2&x_edit_mode=No&Task_id=100920&wrapper=no')\">Chk-Recheck</a>",
+            "Approved",
+            "Audit Manager",
+            "",
+            "",
+            "",
+            "",
+            "Checklist",
+            ""
+          ],
+          [ "Audit To Recheck-Control",
+            "<a target=\"_self\" href=\"javascript:callreportdetails('Pushinfolet?id=101180&proc=9554&flag=1&emd=2&x_edit_mode=No&Task_id=100923&wrapper=no')\">Control-Recheck-New-10</a>",
+            "Approved",
+            "Audit Manager",
+            "",
+            "",
+            "",
+            "",
+            "Test Controls",
+            "IT-Process-10,Process-IT,Process-IT-Own-Org [Risk-10,Risk-IT,Risk-IT-Own-Org]"
+          ],
+          [ "Audit To Recheck-Control",
+            "<a target=\"_self\" href=\"javascript:callreportdetails('Pushinfolet?id=101180&proc=9529&flag=1&emd=2&x_edit_mode=No&Task_id=100922&wrapper=no')\">Control-Recheck</a>",
+            "Approved",
+            "Audit Manager",
+            "",
+            "",
+            "",
+            "",
+            "Test Controls",
+            "IT-Process-10,Process-IT,Process-IT-Own-Org [Risk-10,Risk-IT,Risk-IT-Own-Org]"
+          ],
+          [ "Audit To Recheck-Control",
+            "<a target=\"_self\" href=\"javascript:callreportdetails('Pushinfolet?id=101178&proc=9526&flag=1&emd=2&x_edit_mode=No&Task_id=100921&wrapper=no')\">Other-Recheck</a>",
+            "Approved",
+            "Audit Manager",
+            "",
+            "",
+            "",
+            "",
+            "Other",
+            ""
+          ]
+        ],
+      "gh" : [  ]
+    },
+  "REPORT_NAME" : "Audit Project Tasks Report",
+  "TOTALROWCOUNT" : 4,
+  "replaceTitle" : ""
+}

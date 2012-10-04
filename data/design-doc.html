@@ -1,0 +1,115 @@
+<h1>MetricStream - MobileApp</h1>
+<h2>Technical Design Specification</h2>
+
+<!-- Introduction -->
+<h3>Introduction</h3>
+<h4>Document Objective</h4>
+
+<p>This Technical Design Specification (TDS) document elucidates communication protocol of MetricStream MobileApp with MetricStream application. This document will serve as input to AppStudio design team for application design and development. The target audience for this document is AppStudio development and review team.</p>
+<p>This document also includes brief description of following components, which are required to establish the communication protocol:</p>
+<ul>
+  <li>MobileApp UI</li>
+  <li>RESTful services</li>
+  <li>Webservices (SOAP message)</li>
+  <li>MetricStream Application</li>
+</ul>
+
+<h4>Release Scope</h4>
+<p>MobileApp will be hosted on iPad and MetricStream Application will be hosted on requisite application server using ECP version 6.0 SP4 and above.</p>
+
+<h3>Components</h3>
+<h4>Overview</h4>
+<p>MetricStream’s MobileApp renders a configured MetricStream application on any mobile tablet, for example, an iPad. This application would provide users with the option to take immediate action on any GRC process while on the move.</p>
+<h4>Technical Components</h4>
+<p>Following are the technical components which would make the MobileApp functional:</p>
+<ul>
+  <li>
+    <strong>Mobile App User Interface</strong>
+    <p>The MobileApp UI will be a lightweight graphical user-interface (GUI) ported on a desired tablet. This UI would be shredded version of the associated form hosted on MetricStream application. The MobileApp UI will provide to the end-user the capability to view an assignment and take requisite action on it. However, user will not have options viz. running an Infolet, scheduling an Infolet, changing user-profile or org-role pair which are intrinsic to application. This UI would not contain any processing capability viz. translating stored-value to corresponding display value or performing JavaScript validation on the UI. From a technical perspective, this App will have the capability to accept and return requisite JSON string to RESTFul web services for communication with concerned MetricStream application server.`</p>
+  </li>
+  <li>
+    <strong>RESTful web services layer</strong>
+    <p>As REST facilitates louse coupling between web-servers, is less strongly typed than SOAP, does not require message header for processing web service request, does not require XML parsing and consumes less bandwidth, it serves as a viable option of communication between MobileApp UI and Platform enabled web services. REST layer will accept json string and invoke corresponding web service. REST services will run as container on an independent server.</p>
+  </li>
+  <li>
+    <strong>ECP (Platform) SOAP web services</strong>
+    <p>The web services stack provided by Platform team would enable one to create and deploy secure, reliable, transactional and interoperable web services for any MetricStream application form. These deployed web service components will transact with RESTFul services for forming request to and response from MetricStream Application server.</p>
+  </li>
+  <li>
+    <strong>Web server</strong>
+    <p>This will be the application server hosting the MetricStream Application. This server would have a web server port exposed for web services.</p>
+  </li>
+</ul>
+<!-- /Introduction -->
+
+<!-- Design Overview -->
+<h3>Design Overview</h3>
+<h4>High Level Design</h4>
+<p>A high-level design is represented pictorially below:</p>
+<p>TODO Add the design diagram here.</p>
+
+<h4>Technologies used</h4>
+<h5>Front-end</h5>
+<p>The technologies used on the user interface layer are as follows:</p>
+<ul>
+  <li>Standard web technologies:  HTML5, CSS3, JavaScript</li>
+  <li>
+    <span>Application Container</span>
+    <ul>
+      <li>
+        <strong>Apache Cordova</strong>
+        <a href="http://www.phonegap.com">phonegap.com</a>
+        <em>Apache License 2.0</em>
+        <p>PhoneGap (previously called Apache Callback, but now Apache Cordova) is an open-source mobile development framework produced by Nitobi, purchased by Adobe Systems. It enables software programmers to build applications for mobile devices using JavaScript, HTML5 and CSS3, instead of device specific languages such as Objective-C. The resulting applications are hybrid, meaning that they are neither truly native (because all layout rendering is done via web views instead of the platform's native UI framework) nor purely web-based (because they are not just web apps, but are packaged as apps for distribution and have access to native device APIs).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <span>Libraries</span>
+    <ul>
+      <li>
+        <strong>KnockoutJS</strong>
+        <a href="http://knockoutjs.com">knockoutjs.com</a>
+        <em>MIT LICENSE</em>
+        <p>Knockout is a JavaScript library that allows developers to create rich, responsive display and editor user interfaces with a clean underlying data model.</p>
+      </li>
+      <li>
+        <strong>jQuery Mobile</strong>
+        <a href="http://jquerymobile.com">jquerymobile.com</a>
+        <em>DUAL LICENSE: GPL OR MIT</em>
+        <p>jQuery Mobile is a touch-optimized web framework (additionally known as a JavaScript library or a mobile framework) currently being developed by the jQuery project team.</p>
+      </li>
+      <li>
+        <strong>jQuery</strong>
+        <a href="http://jquery.com">jquery.com</a>
+        <em>MIT LICENSE</em>
+        <p>jQuery is a multi-browser JavaScript library designed to simplify the client-side scripting of HTML.</p>
+      </li>
+      <li>
+        <strong>RequireJS</strong>
+        <a href="http://requirejs.org">requirejs.org</a>
+        <em>NEW BSD OR MIT LICENSE</em>
+        <p>RequireJS is a JavaScript file and module loader.</p>
+      </li>
+      <li>
+        <strong>Twitter Bootstrap</strong>
+        <a href="http://twitter.github.com/bootstrap">twitter.github.com/bootstrap</a>
+        <em>APACHE LICENSE 2.0</em>
+        <p>Twitter Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, charts, navigation and other interface components, as well as optional JavaScript extensions.</p>
+      </li>
+      <li>
+        <strong>Font Awesome Icon Pack</strong>
+        <a href="http://fortawesome.github.com/Font-Awesome">fortawesome.github.com/Font-Awesome</a>
+        <em>CREATIVE COMMONS 3.0</em>
+        <p>A set of font-based (vector/scalable) icons optimized for use with Twitter Bootstrap.</p>
+      </li>
+      <li>
+        <strong>iScroll 4</strong>
+        <a href="http://cubiq.org/iscroll-4">cubiq.org/iscroll-4</a>
+        <em>MIT LICENSE</em>
+        <p>Mobile webkit (on iPhone, iPod, Android and Pre) does not provide a native way to scroll content inside a fixed width/height element. This unfortunate situation prevents any web-app to have a position:absolute header and/or footer and a scrolling central area for contents. iScroll solves this problem.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+<!-- /Design Overview -->

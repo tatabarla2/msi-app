@@ -1,0 +1,653 @@
+All audits:
+http://msi-vmdevismap:8082/metricstream/systemi/Reportsstart/ajax/ReportStart
+?REPORT_ID=101163
+&templ=Tabularjson.xhtmp
+&ENTERPRISE_ID=100000
+&INSTANCE_ID=207693
+&INSTANCE_ID_2=
+&METRIC_ID=101893
+&PARAMETERS_FOR_REQ=
+&RECORDS_PER_PAGE=20
+&REPORT_ID=101163
+&REPORT_NAME=My%20Audits
+&REP_MODE=
+&RUNTIME_SORT_COL_SEQ=
+&RUNTIME_SORT_DIR=
+&SEARCH_COND=
+&limit=20
+&pageu=1
+&start=0
+
+Response:
+{ "DTTIME" : "Report Data as of: 08/27/2012 04:21 PM ",
+  "ERRMSG" : "",
+  "INSTANCEID" : "207693",
+  "PARAMSFORREQ" : "",
+  "PARAMSFORREQDISP" : "",
+  "QUERY" : { "COLUMNS" : [ "col1",
+          "col2",
+          "col3",
+          "col4",
+          "col5",
+          "col6",
+          "col7",
+          "col8",
+          "col9",
+          "col10",
+          "col11",
+          "col12",
+          "col13",
+          "col14",
+          "col15",
+          "col16"
+        ],
+      "DATA" : 
+      		[[ "101223",
+            "Org-Risk Audit-Cross functional by Dev",
+            "Final Report",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "1",
+            "1",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101223&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101223&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=101223&wrapper=yes",
+            "Financial",
+            "Cross Functional",
+            "27/Aug/2012"
+          ],
+          [ "101203",
+            "Audit to CF-ISM",
+            "Final Report",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "3",
+            "4",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101203&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101203&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=101203&wrapper=yes",
+            "",
+            "Cross Functional",
+            "27/Aug/2012"
+          ],
+          [ "101143",
+            "sample5",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "3",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101143&wrapper= yes",
+            "",
+            "",
+            "Environmental",
+            "Compliance",
+            "25/Aug/2012"
+          ],
+          [ "101123",
+            "sample4",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "2",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101123&wrapper= yes",
+            "",
+            "",
+            "Operations",
+            "Compliance",
+            "25/Aug/2012"
+          ],
+          [ "101085",
+            "sample3",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "1",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101085&wrapper= yes",
+            "",
+            "",
+            "Operations",
+            "Compliance",
+            "25/Aug/2012"
+          ],
+          [ "101084",
+            "Audit-60223",
+            "Audit Started",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "3",
+            "4",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101084&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101084&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=101084&wrapper=yes",
+            "Financial",
+            "Cross Functional",
+            "25/Aug/2012"
+          ],
+          [ "101063",
+            "ABCD",
+            "Scheduled",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Manager 1,Manager 2",
+            "1",
+            " In Progress",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Regulatory",
+            "Cross Functional",
+            "01/Nov/2013"
+          ],
+          [ "101024",
+            "Audit New3",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101024&wrapper= yes",
+            "",
+            "",
+            "System",
+            "Quality",
+            "24/Aug/2012"
+          ],
+          [ "101023",
+            "Audit-60299",
+            "Audit Started",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "4",
+            "4",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101023&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101023&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=101023&wrapper=yes",
+            "Financial",
+            "Cross Functional",
+            "24/Aug/2012"
+          ],
+          [ "101006",
+            "Audit New2",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101006&wrapper= yes",
+            "",
+            "",
+            "System",
+            "Quality",
+            "24/Aug/2012"
+          ],
+          [ "101005",
+            "Audit-New",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101005&wrapper= yes",
+            "",
+            "",
+            "System",
+            "Quality",
+            "24/Aug/2012"
+          ],
+          [ "101004",
+            "sample2",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "1",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101004&wrapper= yes",
+            "",
+            "",
+            "Health & Safety",
+            "Compliance",
+            "24/Aug/2012"
+          ],
+          [ "101003",
+            "sample1",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "1",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=101003&wrapper= yes",
+            "",
+            "",
+            "Environmental",
+            "Compliance",
+            "24/Aug/2012"
+          ],
+          [ "100991",
+            "Audit to check-60150",
+            "Final Report",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "3",
+            "5",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100991&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100991&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=100991&wrapper=yes",
+            "Process",
+            "Quality",
+            "24/Aug/2012"
+          ],
+          [ "100988",
+            "Audit 24",
+            "Final Report",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "1",
+            "1",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100988&wrapper= yes",
+            "Pushinfolet?id=101179&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100988&wrapper=yes",
+            "Pushinfolet?id=101175&flag= 1&emd=1&x_edit_mode=Yes&Audit_id=100988&wrapper=yes",
+            "Regulatory",
+            "Cross Functional",
+            "24/Aug/2012"
+          ],
+          [ "100987",
+            "Audit test-60170",
+            "Audit Started",
+            "Kiran Kumar,L1 Lead,L2 Lead,Lead 1,Lead 2",
+            "Audit Manager,Issue Owner",
+            "0",
+            " In Progress",
+            "",
+            "",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100987&wrapper= yes",
+            "",
+            "",
+            "Regulatory",
+            "Cross Functional",
+            "24/Aug/2012"
+          ],
+          [ "100984",
+            "sample",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "1",
+            "",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100984&wrapper= yes",
+            "",
+            "",
+            "Operations",
+            "Compliance",
+            "24/Aug/2012"
+          ],
+          [ "100983",
+            "Error",
+            "Audit Started",
+            "Lead 1",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "1",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100983&wrapper= yes",
+            "",
+            "",
+            "Financial",
+            "Compliance",
+            "24/Aug/2012"
+          ],
+          [ "100943",
+            "Cross functional to check emails",
+            "Audit Started",
+            "Lead 1,Lead 2",
+            "Audit Manager,Manager 1",
+            "0",
+            " In Progress",
+            "3",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100943&wrapper= yes",
+            "",
+            "",
+            "Operations",
+            "Cross Functional",
+            "23/Aug/2012"
+          ],
+          [ "100883",
+            "Createtask35",
+            "Audit Started",
+            "L1 Lead",
+            "Audit Manager",
+            "0",
+            " In Progress",
+            "2",
+            "0",
+            "",
+            "Pushinfolet?id=101172&flag=1&emd=1&x_edit_mode=Yes&Audit_id=100883&wrapper= yes",
+            "",
+            "",
+            "Operations",
+            "Compliance",
+            "23/Aug/2012"
+          ]
+        ]
+    },
+  "REPORT_NAME" : "My Audits",
+  "TOTALROWCOUNT" : 163,
+  "replaceTitle" : ""
+}
+
+
+
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+
+
+
+URL:
+http://msi-vmdevismap:8082/metricstream/systemi/Reportsstart/ajax/ReportStart
+?REPORT_ID=100101
+&templ=groupjson.xhtmp
+&ENTERPRISE_ID=100000
+&INSTANCE_ID=205115
+&INSTANCE_ID_2=
+&METRIC_ID=100868
+&PARAMETERS_FOR_REQ=%2526pName_0%253DAudit_ID%2526pValue_0%253D101203%2526filtId_0%253D0
+&RECORDS_PER_PAGE=20
+&REPORT_ID=100101
+&REPORT_NAME=Audit%20Project%20Tasks%20Report
+&REP_MODE=
+&RUNTIME_SORT_COL_SEQ=
+&RUNTIME_SORT_DIR=ASC
+&SEARCH_COND=
+&dir=
+&groupBy=12
+&groupDir=ASC
+&limit=20
+&pageu=1
+&sort=
+&start=0
+
+Response:
+{ "DTTIME" : "Report Data as of: 08/27/2012 04:24 PM  ",
+  "ERRMSG" : "",
+  "INSTANCEID" : "207698",
+  "PARAMSFORREQ" : "%26pName_0%3DAudit_ID%26pValue_0%3D101223%26filtId_0%3D0",
+  "PARAMSFORREQDISP" : "",
+  "QUERY" : { "COLUMNS" : [ "col12",
+          "col1",
+          "col2",
+          "col4",
+          "col5",
+          "col6",
+          "col7",
+          "col8",
+          "col9",
+          "col13"
+        ],
+      "DATA" : [ [ "Org-Risk Audit-Cross functional by Dev",
+            "<a target=\"_self\" href=\"javascript:callreportdetails('Pushinfolet?id=101178&proc=12783&flag=1&emd=2&x_edit_mode=No&Task_id=102024&wrapper=no')\">other task 1</a>",
+            "Approved",
+            "Audit Manager",
+            "Audit Manager",
+            "",
+            "",
+            "",
+            "Other",
+            ""
+          ] ],
+      "gh" : [  ]
+    },
+  "REPORT_NAME" : "Audit Project Tasks Report",
+  "TOTALROWCOUNT" : 1,
+  "replaceTitle" : ""
+}
+
+
+
+
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+
+
+
+
+
+
+
+start=0
+&limit=20
+&sort=
+&dir=
+&RECORDS_PER_PAGE=20
+&pageu=1
+&REPORT_ID=100101
+&METRIC_ID=100868
+&INSTANCE_ID=204526
+&INSTANCE_ID_2=
+&REP_MODE=
+&ENTERPRISE_ID=100000
+&REPORT_NAME=Audit%20Project%20Tasks%20Report
+&PARAMETERS_FOR_REQ=%2526pName_0%253DAudit_ID%2526pValue_0%253D101143%2526filtId_0%253D0
+&RUNTIME_SORT_COL_SEQ=
+&SEARCH_COND=
+&RUNTIME_SORT_DIR=ASC
+&groupBy=12
+&groupDir=ASC
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+start=0
+&limit=20
+&RECORDS_PER_PAGE=20
+&pageu=1
+&REPORT_ID=101163
+&METRIC_ID=101893
+&INSTANCE_ID=205766
+&INSTANCE_ID_2=
+&REP_MODE=
+&ENTERPRISE_ID=100000
+&REPORT_NAME=My%20Audits
+&PARAMETERS_FOR_REQ=
+&RUNTIME_SORT_COL_SEQ=
+&SEARCH_COND=
+&RUNTIME_SORT_DIR=
+
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+start=0
+&limit=20
+&sort=
+&dir=
+&RECORDS_PER_PAGE=20
+&pageu=1
+&REPORT_ID=100101
+&METRIC_ID=100868
+&INSTANCE_ID=204642
+&INSTANCE_ID_2=
+&REP_MODE=
+&ENTERPRISE_ID=100000
+&REPORT_NAME=Audit%20Project%20Tasks%20Report
+&PARAMETERS_FOR_REQ=%2526pName_0%253DAudit_ID%2526pValue_0%253D101123%2526filtId_0%253D0
+&RUNTIME_SORT_COL_SEQ=
+&SEARCH_COND=
+&RUNTIME_SORT_DIR=ASC
+&groupBy=12
+&groupDir=ASC
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+start=0
+&limit=20
+&sort=
+&dir=
+&RECORDS_PER_PAGE=20
+&pageu=1
+&REPORT_ID=100101
+&METRIC_ID=100868
+&INSTANCE_ID=204560
+&INSTANCE_ID_2=
+&REP_MODE=
+&ENTERPRISE_ID=100000
+&REPORT_NAME=Audit%20Project%20Tasks%20Report
+&PARAMETERS_FOR_REQ=%2526pName_0%253DAudit_ID%2526pValue_0%253D101123%2526filtId_0%253D0
+&RUNTIME_SORT_COL_SEQ=
+&SEARCH_COND=
+&RUNTIME_SORT_DIR=ASC
+&groupBy=12
+&groupDir=ASC
+
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+
+
+{'ERRMSG':'','REPORT_NAME':'Audit Project Tasks Report','replaceTitle':'','DTTIME':'Report Data as of: 08/27/2012 12:00 PM  ','TOTALROWCOUNT':2,'PARAMSFORREQ':'%26pName_0%3DAudit_ID%26pValue_0%3D101123%26filtId_0%3D0','PARAMSFORREQDISP':'','INSTANCEID':'204642','QUERY':{"COLUMNS":['col12','col1','col2','col4','col5','col6','col7','col8','col9','col13']
+,'DATA':[['sample4','<a target=\"_self\" href=\"javascript:callreportdetails(\'Pushinfolet?id=101178&proc=12475&flag=1&emd=2&x_edit_mode=No&Task_id=101866&wrapper=no\')\">Task-02</a>','In Progress','Audit Manager','L1 Lead','','','','Other','']
+,['sample4','<a target=\"_self\" href=\"javascript:callreportdetails(\'Pushinfolet?id=101189&proc=12454&flag=1&emd=2&x_edit_mode=No&Task_id=101864&wrapper=no\')\">task-01</a>','In Progress','Audit Manager','L1 Lead','','','','Checklist','']
+
+
+
+]
+,gh:[
+
+
+
+
+
+
+``
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+Calling via AJAX:
+jQuery.ajax({
+  url: "http://msi-vmqagrcap1.metricstream.com:7210/metricstream/systemi/Infocenterview/ajax/InfoportData?_dc=1346223132997&start=5&limit=5&infoportId=100271&userid=100000&enterpriseid=100000",
+  success: function(data) {
+    var fixedData = (data + "").replace(/\'/g, "\"");
+    console.info(JSON.parse(fixedData));
+  }
+});
